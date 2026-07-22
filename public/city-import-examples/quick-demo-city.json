@@ -1,0 +1,34 @@
+{
+  "id": "pragati-nagar-demo",
+  "name": "Pragati Nagar",
+  "scale": "1 : 18,000",
+  "dataStatus": "imported",
+  "provenance": {
+    "wards": { "source": "Synthetic sample — not municipal data", "status": "declared" },
+    "roads": { "source": "Synthetic sample — not municipal data", "status": "declared" },
+    "facilities": { "source": "Synthetic sample — not municipal data", "status": "declared" },
+    "candidateSites": { "source": "Synthetic sample — not municipal data", "status": "declared" },
+    "riskZones": { "source": "Synthetic sample — not municipal data", "status": "declared" }
+  },
+  "wards": [
+    { "name": "North Ward", "density": 91, "population": 18400, "populationGrowth": 14, "emergencyDemand": 86, "existingHospitalCoverage": 35, "coordinates": [[-0.08,0.07],[-0.01,0.07],[-0.01,0.015],[-0.08,0.015],[-0.08,0.07]] },
+    { "name": "Central Ward", "density": 74, "population": 13200, "populationGrowth": 6, "emergencyDemand": 63, "existingHospitalCoverage": 68, "coordinates": [[-0.005,0.07],[0.075,0.07],[0.075,0.015],[-0.005,0.015],[-0.005,0.07]] },
+    { "name": "South Ward", "density": 69, "population": 11700, "populationGrowth": 11, "emergencyDemand": 79, "existingHospitalCoverage": 42, "coordinates": [[-0.055,0.005],[0.075,0.005],[0.075,-0.06],[-0.055,-0.06],[-0.055,0.005]] }
+  ],
+  "roads": [
+    [[-0.095,0.04],[-0.025,0.035],[0.085,0.04]],
+    [[-0.045,0.09],[-0.015,0.025],[0.025,-0.07]],
+    [[0.06,0.085],[0.025,0.04],[-0.045,-0.045]]
+  ],
+  "river": [[-0.095,-0.065],[-0.025,-0.055],[0.025,-0.075],[0.095,-0.06],[0.095,-0.095],[-0.095,-0.095],[-0.095,-0.065]],
+  "hospitals": [
+    { "name": "Central Care Centre", "coordinates": [0.015,0.036] },
+    { "name": "Civic Clinic", "coordinates": [0.032,0.02] },
+    { "name": "Market First-Aid Post", "coordinates": [-0.004,0.025] }
+  ],
+  "candidates": [
+    { "id": "A", "name": "North Gateway Parcel", "location": "North arterial junction", "coordinates": [-0.04,0.052], "ownership": "municipal", "siteAreaAcres": 5.2, "acquisitionCostLakhs": 0, "landUseAllowed": true, "roadAccessScore": 93, "floodRisk": "low", "serviceCorridor": "north-east", "travel": 92, "need": 89, "growth": 91, "cost": 88, "resilience": 91, "served": "32,500 residents", "response": "8.1 min average", "tradeoff": "Strong access and municipal ownership; intersection design needs review." },
+    { "id": "B", "name": "Central Depot Parcel", "location": "Market-side service road", "coordinates": [0.025,0.01], "ownership": "municipal", "siteAreaAcres": 4.4, "acquisitionCostLakhs": 0, "landUseAllowed": true, "roadAccessScore": 95, "floodRisk": "low", "serviceCorridor": "civic-core", "travel": 95, "need": 48, "growth": 52, "cost": 94, "resilience": 95, "served": "21,100 residents", "response": "7.6 min average", "tradeoff": "Excellent central access but duplicates existing care coverage." },
+    { "id": "C", "name": "South Works Parcel", "location": "Industrial bypass edge", "coordinates": [0.035,-0.05], "ownership": "private", "siteAreaAcres": 6.1, "acquisitionCostLakhs": 180, "landUseAllowed": true, "roadAccessScore": 74, "floodRisk": "high", "serviceCorridor": "south", "travel": 76, "need": 86, "growth": 78, "cost": 72, "resilience": 55, "served": "25,800 residents", "response": "11.2 min average", "tradeoff": "Serves a gap but needs acquisition and flood mitigation." }
+  ]
+}

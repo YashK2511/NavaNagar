@@ -1,0 +1,6 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "name": "South River Flood Buffer", "risk": "high" }, "geometry": { "type": "Polygon", "coordinates": [[[73.998,19.504],[74.007,19.506],[74.016,19.503],[74.029,19.506],[74.029,19.499],[73.998,19.499],[73.998,19.504]]] } }
+  ]
+}

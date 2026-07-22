@@ -1,0 +1,8 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "name": "Central Care Centre" }, "geometry": { "type": "Point", "coordinates": [74.017,19.517] } },
+    { "type": "Feature", "properties": { "name": "Civic Clinic" }, "geometry": { "type": "Point", "coordinates": [74.020,19.515] } },
+    { "type": "Feature", "properties": { "name": "Market First-Aid Post" }, "geometry": { "type": "Point", "coordinates": [74.014,19.516] } }
+  ]
+}

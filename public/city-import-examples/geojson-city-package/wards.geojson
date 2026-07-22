@@ -1,0 +1,8 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "name": "North Ward", "density": 91, "population": 18400, "populationGrowth": 14, "emergencyDemand": 86, "existingHospitalCoverage": 35 }, "geometry": { "type": "Polygon", "coordinates": [[[74.000,19.522],[74.012,19.522],[74.012,19.514],[74.000,19.514],[74.000,19.522]]] } },
+    { "type": "Feature", "properties": { "name": "Central Ward", "density": 74, "population": 13200, "populationGrowth": 6, "emergencyDemand": 63, "existingHospitalCoverage": 68 }, "geometry": { "type": "Polygon", "coordinates": [[[74.013,19.522],[74.027,19.522],[74.027,19.514],[74.013,19.514],[74.013,19.522]]] } },
+    { "type": "Feature", "properties": { "name": "South Ward", "density": 69, "population": 11700, "populationGrowth": 11, "emergencyDemand": 79, "existingHospitalCoverage": 42 }, "geometry": { "type": "Polygon", "coordinates": [[[74.005,19.513],[74.027,19.513],[74.027,19.503],[74.005,19.503],[74.005,19.513]]] } }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "name": "North Arterial" }, "geometry": { "type": "LineString", "coordinates": [[73.998,19.518],[74.012,19.517],[74.029,19.518]] } },
+    { "type": "Feature", "properties": { "name": "Depot Connector" }, "geometry": { "type": "LineString", "coordinates": [[74.006,19.525],[74.013,19.516],[74.018,19.502]] } },
+    { "type": "Feature", "properties": { "name": "Industrial Bypass" }, "geometry": { "type": "LineString", "coordinates": [[74.025,19.525],[74.018,19.517],[74.006,19.505]] } }
+  ]
+}

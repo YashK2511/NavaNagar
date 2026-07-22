@@ -1,0 +1,12 @@
+{
+  "id": "pragati-nagar-geojson-demo",
+  "name": "Pragati Nagar GeoJSON Demo",
+  "scale": "1 : 18,000",
+  "provenance": {
+    "wards": { "source": "Synthetic sample — not municipal data", "status": "declared" },
+    "roads": { "source": "Synthetic sample — not municipal data", "status": "declared" },
+    "facilities": { "source": "Synthetic sample — not municipal data", "status": "declared" },
+    "candidateSites": { "source": "Synthetic sample — not municipal data", "status": "declared" },
+    "riskZones": { "source": "Synthetic sample — not municipal data", "status": "declared" }
+  }
+}
